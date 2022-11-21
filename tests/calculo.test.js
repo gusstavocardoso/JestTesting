@@ -1,8 +1,7 @@
-const soma = require("../src/soma");
+const soma = require("../src/calculo");
 
-describe('Calculos', () => {
+describe("Calculos", () => {
   test("Deve somar dois valores", () => {
     expect(soma(1, 2)).toBe(3);
   });
 });
-
