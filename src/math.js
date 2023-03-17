@@ -6,4 +6,4 @@ function multiplica(a, b) {
   return a * b;
 }
 
-(module.exports = soma), multiplica;
+module.exports = soma, multiplica;

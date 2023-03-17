@@ -1,7 +1,7 @@
 const data = require("../src/data");
 
-describe("Objetos", () => {
-  test("Deve aribuir valor a um objeto", () => {
+describe("Objects", () => {
+  test("Should assign value to an object", () => {
     expect(data).toEqual({ one: 1, two: 2 });
   });
 });
