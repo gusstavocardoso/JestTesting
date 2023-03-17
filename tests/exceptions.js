@@ -1,6 +1,6 @@
-const compilacao = require("../src/excecao");
+const compilacao = require("../src/exceptions");
 
-describe("Excecoes", () => {
+describe("Exceptions", () => {
   test("compiling android goes as expected", () => {
     expect(() => compilacao()).toThrow();
     expect(() => compilacao()).toThrow(Error);

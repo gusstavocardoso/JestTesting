@@ -1,8 +1,8 @@
-const listaDeCompras = require("../src/arrays");
+const shoppingList = require("../src/arrays");
 
 describe("Arrays", () => {
   test("Deve conter leite na lista de compras", () => {
-    expect(listaDeCompras).toContain("milk");
-    expect(new Set(listaDeCompras)).toContain("milk");
+    expect(shoppingList).toContain("milk");
+    expect(new Set(shoppingList)).toContain("milk");
   });
 });

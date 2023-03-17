@@ -1,4 +1,4 @@
-const listaDeCompras = [
+const shoppingList = [
   "diapers",
   "kleenex",
   "trash bags",
@@ -6,4 +6,4 @@ const listaDeCompras = [
   "milk",
 ];
 
-module.exports = listaDeCompras;
+module.exports = shoppingList;
